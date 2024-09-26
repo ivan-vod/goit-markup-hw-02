@@ -47,11 +47,11 @@ img {
 
 /* #region Common*/
 .logo{
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -125,6 +125,9 @@ img {
     color: rgb(var(--OCEAN));
 }
 
+.header-contact-info {
+    font-style: normal;
+}
 .header-contacts-list {
 
 }
@@ -142,6 +145,12 @@ img {
     /* 150% */
     letter-spacing: 0.32px;
 }
+
+.contact-link:hover,
+.contact-link:focus{
+    color:rgb(var(--OCEAN))
+}
+
 /* #endregion */
 
 /* #region Hero */
@@ -158,6 +167,18 @@ img {
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
+    text-align:center;
+}
+
+.btn {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: rgb(var(--OCEAN));
 }
 
 /* #endregion */
@@ -193,20 +214,26 @@ img {
 /* #endregion */
 
 /* #region Team */
-.team {}
+.team {
+    background-color: rgb(var(--CLOUD));
+}
 
 .team-title {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.11px;
+    line-height: 1.11;
     /* 111.111% */
     letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: rgb(var(--WHITE));
+}
 
 .team-name {
     font-size: 20px;
@@ -237,6 +264,8 @@ img {
     line-height: 1.11;
     /* 111.111% */
     letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
