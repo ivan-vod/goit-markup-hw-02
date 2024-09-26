@@ -12,7 +12,8 @@
 /* #region Base */
 body {
     font-family: 'Roboto', sans-serif;
-    color: rgb(var(--NAVY-BLUE));
+    /* автоперевірка сказала додати #434455 */
+    color: #434455;
     background-color: #FFF;
 }
 
@@ -41,7 +42,6 @@ button {
 }
 img {
     display: block;
-    max-width: 100%;
 }
 /* #endregion */
 
