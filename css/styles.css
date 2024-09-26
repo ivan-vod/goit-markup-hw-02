@@ -117,6 +117,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: rgb(var(--NAVY-BLUE));
 }
 
 .header-nav-link:hover,
@@ -186,7 +187,7 @@ img {
 .principles {}
 
 .principles-title {
-    
+    color: rgb(var(--NAVY-BLUE));
 }
 
 .principles-list {}
@@ -226,6 +227,7 @@ img {
     letter-spacing: 0.72px;
     text-align: center;
     text-transform: capitalize;
+    color: rgb(var(--NAVY-BLUE));
 }
 
 .team-list {}
@@ -265,6 +267,7 @@ img {
     letter-spacing: 0.72px;
     text-align: center;
     text-transform: capitalize;
+    color: rgb(var(--NAVY-BLUE));
 }
 
 .portfolio-list {}
