@@ -111,13 +111,12 @@ img {
 }
 
 .header-nav-link {
-
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: rgb(var(--NAVY-BLUE));
+    color: #2e2f42;
 }
 
 .header-nav-link:hover,
@@ -187,7 +186,7 @@ img {
 .principles {}
 
 .principles-title {
-    color: rgb(var(--NAVY-BLUE));
+    color: #2e2f42;
 }
 
 .principles-list {}
@@ -201,6 +200,7 @@ img {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
+    color: #2e2f42;
 }
 
 .principle-desc {
@@ -227,7 +227,7 @@ img {
     letter-spacing: 0.72px;
     text-align: center;
     text-transform: capitalize;
-    color: rgb(var(--NAVY-BLUE));
+    color: #2e2f42;;
 }
 
 .team-list {}
@@ -243,6 +243,7 @@ img {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
+    color: #2e2f42;
 }
 
 .team-role {
@@ -267,7 +268,7 @@ img {
     letter-spacing: 0.72px;
     text-align: center;
     text-transform: capitalize;
-    color: rgb(var(--NAVY-BLUE));
+    color: #2e2f42;
 }
 
 .portfolio-list {}
@@ -281,6 +282,7 @@ img {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
+    color: #2e2f42;
 }
 
 .portfolio-item-type {
