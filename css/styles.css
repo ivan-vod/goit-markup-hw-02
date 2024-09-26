@@ -194,13 +194,14 @@ img {
 .principles-item {}
 
 .principle-title {
+    color: #2e2f42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
-    color: #2e2f42;
+
 }
 
 .principle-desc {
@@ -219,6 +220,7 @@ img {
 }
 
 .team-title {
+    color: #2e2f42;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -227,7 +229,7 @@ img {
     letter-spacing: 0.72px;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42;;
+    
 }
 
 .team-list {}
