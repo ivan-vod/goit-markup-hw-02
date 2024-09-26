@@ -12,8 +12,8 @@
 /* #region Base */
 body {
     font-family: 'Roboto', sans-serif;
+    color: rgb(var(--SLATE));
     /* автоперевірка сказала додати #434455 */
-    color: #434455;
     background-color: #FFF;
 }
 
@@ -73,7 +73,7 @@ img {
 
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -84,7 +84,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 /* #endregion */
 
