@@ -1,0 +1,284 @@
+/* region Variables */
+:root{
+--NAVY-BLUE: 46, 47, 66;
+--IRIS: 77 90 229;
+--OCEAN: 64 75 191;
+--WHITE: 255 255 255;
+--SLATE: 67 68 85;
+--CLOUD: 244 244 253;
+}
+/* endregion */
+
+/* #region Base */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(var(--NAVY-BLUE));
+    background-color: #FFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    cursor: pointer;
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+/* #endregion */
+
+/* #region Common*/
+.logo{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: rgb(var(--IRIS))
+}
+.logo-light{
+    color: rgb(var(--NAVY-BLUE));
+}
+.logo-dark{
+    color: rgb(var(--CLOUD));
+}
+
+.btn{
+    color: rgb(var(--WHITE));
+    background-color: rgb(var(--IRIS));
+}
+
+.section {
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* #endregion */
+
+/* #region Header */
+
+.header {
+
+}
+
+.header-nav {
+
+}
+
+.header-logo {
+
+}
+
+
+.header-nav-list {
+
+}
+
+.header-nav-item {
+
+}
+
+.header-nav-link {
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: rgb(var(--OCEAN));
+}
+
+.header-contacts-list {
+
+}
+
+.contact-list-item {
+
+}
+
+.contact-link {
+    color: rgb(var(--SLATE));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+/* #endregion */
+
+/* #region Hero */
+
+.hero {
+    background-color: rgb(var(--NAVY-BLUE));
+}
+
+.hero-title {
+    color: rgb(var(--WHITE));
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+/* #endregion */
+
+/* #region Principles */
+.principles {}
+
+.principles-title {
+    
+}
+
+.principles-list {}
+
+.principles-item {}
+
+.principle-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.principle-desc {
+    color: rgb(var(--SLATE));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/* #endregion */
+
+/* #region Team */
+.team {}
+
+.team-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.team-role {
+    color: rgb(var(--SLATE));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/* #endregion */
+
+/* #region Portfolio */
+.portfolio {}
+
+.portfolio-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-item-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.portfolio-item-type {
+    color: rgb(var(--SLATE));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+/* #endregion */
+
+/* #region Footer */
+.footer{
+    background-color: rgb(var(--NAVY-BLUE));
+}
+
+.footer-text{
+    color:rgb(var(--CLOUD));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+/* #endregion */
